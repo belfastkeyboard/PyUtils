@@ -1,10 +1,10 @@
-def good(text: str) -> None:
+def good(text: object) -> None:
     print(f"[+] {text}")
 
 
-def info(text: str) -> None:
+def info(text: object) -> None:
     print(f"[i] {text}")
 
 
-def warn(text: str) -> None:
+def warn(text: object) -> None:
     print(f"[!] {text}")
